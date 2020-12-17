@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
 
   setInterval(async () => {
     try {
-      await page.click('[data-id="302"]');
+      await page.click('[data-id="759"]');
       await page.click('.voting-button');
 
       await page.evaluate(() => {
